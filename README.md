@@ -3,6 +3,10 @@ Minimal signal/slot library for C++
 
 ## Usage
 ```c++
+#include <iostream>
+#include <functional>
+#include "Signal.h"
+
 class Object {
  public:
   Object(int val) : value(val) {}
